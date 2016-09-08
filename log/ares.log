@@ -1,0 +1,854 @@
+[DEBUG] 2016-09-06 11:46:06.630 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.server.tcpnodelay
+[DEBUG] 2016-09-06 11:46:06.630 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.cleaner.enable
+[DEBUG] 2016-09-06 11:46:06.631 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.du.interval
+[DEBUG] 2016-09-06 11:46:06.631 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.shuffle.retry-delay.max.ms
+[DEBUG] 2016-09-06 11:46:06.632 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.profile.reduces
+[DEBUG] 2016-09-06 11:46:06.632 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.health-monitor.connect-retry-interval.ms
+[DEBUG] 2016-09-06 11:46:06.633 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.fuse.connection.timeout
+[DEBUG] 2016-09-06 11:46:06.634 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.permissions.superusergroup
+[DEBUG] 2016-09-06 11:46:06.635 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.jobhistory.task.numberprogresssplits
+[DEBUG] 2016-09-06 11:46:06.636 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.ftp.host.port
+[DEBUG] 2016-09-06 11:46:06.637 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.speculative
+[DEBUG] 2016-09-06 11:46:06.638 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.data.dir.perm
+[DEBUG] 2016-09-06 11:46:06.639 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.client.submit.file.replication
+[DEBUG] 2016-09-06 11:46:06.639 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.startup.delay.block.deletion.sec
+[DEBUG] 2016-09-06 11:46:06.643 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.ubertask.maxmaps
+[DEBUG] 2016-09-06 11:46:06.647 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3native.blocksize
+[DEBUG] 2016-09-06 11:46:06.651 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.replication.min
+[DEBUG] 2016-09-06 11:46:06.654 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.cluster.acls.enabled
+[DEBUG] 2016-09-06 11:46:06.657 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.uid.cache.secs
+[DEBUG] 2016-09-06 11:46:06.659 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for nfs.allow.insecure.ports
+[DEBUG] 2016-09-06 11:46:06.659 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.localizer.fetch.thread-count
+[DEBUG] 2016-09-06 11:46:06.662 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for map.sort.class
+[DEBUG] 2016-09-06 11:46:06.664 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.trash.checkpoint.interval
+[DEBUG] 2016-09-06 11:46:06.664 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapred.queue.default.acl-administer-jobs
+[DEBUG] 2016-09-06 11:46:06.665 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.image.transfer.timeout
+[DEBUG] 2016-09-06 11:46:06.666 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.name.dir
+[DEBUG] 2016-09-06 11:46:06.667 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.connect.timeout
+[DEBUG] 2016-09-06 11:46:06.668 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.staging-dir
+[DEBUG] 2016-09-06 11:46:06.669 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.AbstractFileSystem.file.impl
+[DEBUG] 2016-09-06 11:46:06.670 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.env-whitelist
+[DEBUG] 2016-09-06 11:46:06.671 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.keytab
+[DEBUG] 2016-09-06 11:46:06.671 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.image.compression.codec
+[DEBUG] 2016-09-06 11:46:06.672 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.reduces
+[DEBUG] 2016-09-06 11:46:06.672 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.complete.cancel.delegation.tokens
+[DEBUG] 2016-09-06 11:46:06.673 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.recovery.store.class
+[DEBUG] 2016-09-06 11:46:06.674 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.group.mapping.ldap.search.filter.user
+[DEBUG] 2016-09-06 11:46:06.675 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.sleep-delay-before-sigkill.ms
+[DEBUG] 2016-09-06 11:46:06.676 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.enable.retrycache
+[DEBUG] 2016-09-06 11:46:06.676 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.joblist.cache.size
+[DEBUG] 2016-09-06 11:46:06.677 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.healthchecker.interval
+[DEBUG] 2016-09-06 11:46:06.678 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.heartbeats.in.second
+[DEBUG] 2016-09-06 11:46:06.678 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.persist.jobstatus.dir
+[DEBUG] 2016-09-06 11:46:06.679 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.backup.http-address
+[DEBUG] 2016-09-06 11:46:06.679 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.rpc.protection
+[DEBUG] 2016-09-06 11:46:06.680 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.mmap.enabled
+[DEBUG] 2016-09-06 11:46:06.680 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.container.log.backups
+[DEBUG] 2016-09-06 11:46:06.681 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ftp.stream-buffer-size
+[DEBUG] 2016-09-06 11:46:06.682 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.https-address
+[DEBUG] 2016-09-06 11:46:06.691 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.address
+[DEBUG] 2016-09-06 11:46:06.692 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.ha.log-roll.period
+[DEBUG] 2016-09-06 11:46:06.693 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.recovery.enabled
+[DEBUG] 2016-09-06 11:46:06.694 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.input.fileinputformat.numinputfiles
+[DEBUG] 2016-09-06 11:46:06.694 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.admin.client.thread-count
+[DEBUG] 2016-09-06 11:46:06.695 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.fsdatasetcache.max.threads.per.volume
+[DEBUG] 2016-09-06 11:46:06.696 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for file.client-write-packet-size
+[DEBUG] 2016-09-06 11:46:06.697 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.http.authentication.simple.anonymous.allowed
+[DEBUG] 2016-09-06 11:46:06.697 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.leveldb-timeline-store.path
+[DEBUG] 2016-09-06 11:46:06.698 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.drop.cache.behind.reads
+[DEBUG] 2016-09-06 11:46:06.699 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.log.retain-seconds
+[DEBUG] 2016-09-06 11:46:06.700 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.image.transfer.bandwidthPerSec
+[DEBUG] 2016-09-06 11:46:06.700 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.slow.io.warning.threshold.ms
+[DEBUG] 2016-09-06 11:46:06.704 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.instrumentation
+[DEBUG] 2016-09-06 11:46:06.705 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.failover-controller.cli-check.rpc-timeout.ms
+[DEBUG] 2016-09-06 11:46:06.706 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.linux-container-executor.cgroups.hierarchy
+[DEBUG] 2016-09-06 11:46:06.706 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.write.stale.datanode.ratio
+[DEBUG] 2016-09-06 11:46:06.707 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.groups.cache.warn.after.ms
+[DEBUG] 2016-09-06 11:46:06.708 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.client.thread-count
+[DEBUG] 2016-09-06 11:46:06.708 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.mapfile.bloom.size
+[DEBUG] 2016-09-06 11:46:06.709 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.work-preserving-recovery.enabled
+[DEBUG] 2016-09-06 11:46:06.711 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.ha.fencing.ssh.connect-timeout
+[DEBUG] 2016-09-06 11:46:06.711 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.zk-num-retries
+[DEBUG] 2016-09-06 11:46:06.712 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3.bytes-per-checksum
+[DEBUG] 2016-09-06 11:46:06.712 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.container.log.limit.kb
+[DEBUG] 2016-09-06 11:46:06.714 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.edit.log.autoroll.check.interval.ms
+[DEBUG] 2016-09-06 11:46:06.714 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.automatic.close
+[DEBUG] 2016-09-06 11:46:06.715 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.trash.interval
+[DEBUG] 2016-09-06 11:46:06.716 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.journalnode.https-address
+[DEBUG] 2016-09-06 11:46:06.716 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.authentication
+[DEBUG] 2016-09-06 11:46:06.717 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.ttl-ms
+[DEBUG] 2016-09-06 11:46:06.718 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.defaultFS
+[DEBUG] 2016-09-06 11:46:06.718 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.generic-application-history.enabled
+[DEBUG] 2016-09-06 11:46:06.719 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for nfs.rtmax
+[DEBUG] 2016-09-06 11:46:06.719 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.ssl.server.conf
+[DEBUG] 2016-09-06 11:46:06.720 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.connect.max.retries
+[DEBUG] 2016-09-06 11:46:06.721 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.delayed.delegation-token.removal-interval-ms
+[DEBUG] 2016-09-06 11:46:06.722 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.xattrs.enabled
+[DEBUG] 2016-09-06 11:46:06.723 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.journalnode.http-address
+[DEBUG] 2016-09-06 11:46:06.723 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.shared.file.descriptor.paths
+[DEBUG] 2016-09-06 11:46:06.724 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.taskscheduler
+[DEBUG] 2016-09-06 11:46:06.725 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.speculative.speculativecap
+[DEBUG] 2016-09-06 11:46:06.725 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.store-class
+[DEBUG] 2016-09-06 11:46:06.726 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.am.liveness-monitor.expiry-interval-ms
+[DEBUG] 2016-09-06 11:46:06.727 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.output.fileoutputformat.compress
+[DEBUG] 2016-09-06 11:46:06.728 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for net.topology.node.switch.mapping.impl
+[DEBUG] 2016-09-06 11:46:06.728 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.replication.considerLoad
+[DEBUG] 2016-09-06 11:46:06.729 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.fs-limits.min-block-size
+[DEBUG] 2016-09-06 11:46:06.730 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.swift.impl
+[DEBUG] 2016-09-06 11:46:06.731 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.audit.loggers
+[DEBUG] 2016-09-06 11:46:06.731 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.max.split.locations
+[DEBUG] 2016-09-06 11:46:06.732 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.address
+[DEBUG] 2016-09-06 11:46:06.732 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.counters.max
+[DEBUG] 2016-09-06 11:46:06.733 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.block.write.retries
+[DEBUG] 2016-09-06 11:46:06.733 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.nm.liveness-monitor.interval-ms
+[DEBUG] 2016-09-06 11:46:06.734 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.short.circuit.shared.memory.watcher.interrupt.check.ms
+[DEBUG] 2016-09-06 11:46:06.735 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.map.index.interval
+[DEBUG] 2016-09-06 11:46:06.735 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapred.child.java.opts
+[DEBUG] 2016-09-06 11:46:06.736 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.local.dir.minspacestart
+[DEBUG] 2016-09-06 11:46:06.737 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.client.progressmonitor.pollinterval
+[DEBUG] 2016-09-06 11:46:06.738 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.https.keystore.resource
+[DEBUG] 2016-09-06 11:46:06.739 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.profile.map.params
+[DEBUG] 2016-09-06 11:46:06.740 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for rpc.engine.org.apache.hadoop.hdfs.protocolPB.ClientNamenodeProtocolPB
+[DEBUG] 2016-09-06 11:46:06.741 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.tasktracker.maxblacklists
+[DEBUG] 2016-09-06 11:46:06.741 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.queuename
+[DEBUG] 2016-09-06 11:46:06.742 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.client-am.ipc.max-retries-on-timeouts
+[DEBUG] 2016-09-06 11:46:06.742 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.localizer.address
+[DEBUG] 2016-09-06 11:46:06.743 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.mapfile.bloom.error.rate
+[DEBUG] 2016-09-06 11:46:06.743 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.delete.thread-count
+[DEBUG] 2016-09-06 11:46:06.744 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.split.metainfo.maxsize
+[DEBUG] 2016-09-06 11:46:06.745 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.scheduler.maximum-allocation-vcores
+[DEBUG] 2016-09-06 11:46:06.755 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapred.mapper.new-api
+[DEBUG] 2016-09-06 11:46:06.757 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.tcpnodelay
+[DEBUG] 2016-09-06 11:46:06.757 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.dir
+[DEBUG] 2016-09-06 11:46:06.758 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.resource.mb
+[DEBUG] 2016-09-06 11:46:06.759 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.dns.nameserver
+[DEBUG] 2016-09-06 11:46:06.760 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.slow.io.warning.threshold.ms
+[DEBUG] 2016-09-06 11:46:06.762 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.reducer.preempt.delay.sec
+[DEBUG] 2016-09-06 11:46:06.763 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.disk-health-checker.min-free-space-per-disk-mb
+[DEBUG] 2016-09-06 11:46:06.763 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.output.compress.codec
+[DEBUG] 2016-09-06 11:46:06.764 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.accesstime.precision
+[DEBUG] 2016-09-06 11:46:06.764 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.log.level
+[DEBUG] 2016-09-06 11:46:06.765 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.seqfile.compress.blocksize
+[DEBUG] 2016-09-06 11:46:06.775 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.taskcontroller
+[DEBUG] 2016-09-06 11:46:06.776 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.groups.cache.secs
+[DEBUG] 2016-09-06 11:46:06.778 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.context
+[DEBUG] 2016-09-06 11:46:06.787 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.end-notification.max.attempts
+[DEBUG] 2016-09-06 11:46:06.788 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.linux-container-executor.nonsecure-mode.local-user
+[DEBUG] 2016-09-06 11:46:06.788 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.webapp.address
+[DEBUG] 2016-09-06 11:46:06.791 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.submithostname
+[DEBUG] 2016-09-06 11:46:06.791 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.recovery.enable
+[DEBUG] 2016-09-06 11:46:06.792 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.expire.trackers.interval
+[DEBUG] 2016-09-06 11:46:06.793 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.webapp.address
+[DEBUG] 2016-09-06 11:46:06.794 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.health-checker.interval-ms
+[DEBUG] 2016-09-06 11:46:06.799 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.loadedjobs.cache.size
+[DEBUG] 2016-09-06 11:46:06.800 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.history-writer.multi-threaded-dispatcher.pool-size
+[DEBUG] 2016-09-06 11:46:06.800 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.authorization
+[DEBUG] 2016-09-06 11:46:06.801 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.map.output.collector.class
+[DEBUG] 2016-09-06 11:46:06.802 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.am.max-attempts
+[DEBUG] 2016-09-06 11:46:06.804 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.ftp.host
+[DEBUG] 2016-09-06 11:46:06.805 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.scheduler.heartbeat.interval-ms
+[DEBUG] 2016-09-06 11:46:06.809 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.ifile.readahead
+[DEBUG] 2016-09-06 11:46:06.810 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.scheduler.monitor.enable
+[DEBUG] 2016-09-06 11:46:06.811 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.zk-retry-interval-ms
+[DEBUG] 2016-09-06 11:46:06.812 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.zookeeper.session-timeout.ms
+[DEBUG] 2016-09-06 11:46:06.814 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.taskmemorymanager.monitoringinterval
+[DEBUG] 2016-09-06 11:46:06.814 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.shuffle.parallelcopies
+[DEBUG] 2016-09-06 11:46:06.818 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.mmap.retry.timeout.ms
+[DEBUG] 2016-09-06 11:46:06.820 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.skip.maxrecords
+[DEBUG] 2016-09-06 11:46:06.826 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.output.value.class
+[DEBUG] 2016-09-06 11:46:06.827 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.classloader.system.classes
+[DEBUG] 2016-09-06 11:46:06.828 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.avoid.read.stale.datanode
+[DEBUG] 2016-09-06 11:46:06.829 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.https.enable
+[DEBUG] 2016-09-06 11:46:06.829 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.webapp.https.address
+[DEBUG] 2016-09-06 11:46:06.830 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.shuffle.read.timeout
+[DEBUG] 2016-09-06 11:46:06.830 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.remote-app-log-dir-suffix
+[DEBUG] 2016-09-06 11:46:06.831 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.output.fileoutputformat.compress.codec
+[DEBUG] 2016-09-06 11:46:06.835 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.instrumentation
+[DEBUG] 2016-09-06 11:46:06.836 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.blockreport.intervalMsec
+[DEBUG] 2016-09-06 11:46:06.837 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.connect.retry.interval
+[DEBUG] 2016-09-06 11:46:06.842 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.speculative
+[DEBUG] 2016-09-06 11:46:06.843 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.keytab
+[DEBUG] 2016-09-06 11:46:06.844 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.datestring.cache.size
+[DEBUG] 2016-09-06 11:46:06.844 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.balance.bandwidthPerSec
+[DEBUG] 2016-09-06 11:46:06.845 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for file.blocksize
+[DEBUG] 2016-09-06 11:46:06.852 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.admin.address
+[DEBUG] 2016-09-06 11:46:06.859 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.cpu.vcores
+[DEBUG] 2016-09-06 11:46:06.859 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.container-monitor.procfs-tree.smaps-based-rss.enabled
+[DEBUG] 2016-09-06 11:46:06.863 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.configuration.provider-class
+[DEBUG] 2016-09-06 11:46:06.865 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.resource-tracker.address
+[DEBUG] 2016-09-06 11:46:06.872 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.local.dir.minspacekill
+[DEBUG] 2016-09-06 11:46:06.874 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.staging.root.dir
+[DEBUG] 2016-09-06 11:46:06.876 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.retiredjobs.cache.size
+[DEBUG] 2016-09-06 11:46:06.877 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.connect.max.retries.on.timeouts
+[DEBUG] 2016-09-06 11:46:06.878 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.zookeeper.acl
+[DEBUG] 2016-09-06 11:46:06.879 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.local-dirs
+[DEBUG] 2016-09-06 11:46:06.882 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.app-submission.cross-platform
+[DEBUG] 2016-09-06 11:46:06.883 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.shuffle.connect.timeout
+[DEBUG] 2016-09-06 11:46:06.883 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.block.access.key.update.interval
+[DEBUG] 2016-09-06 11:46:06.888 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for rpc.metrics.quantile.enable
+[DEBUG] 2016-09-06 11:46:06.889 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.block.access.token.lifetime
+[DEBUG] 2016-09-06 11:46:06.891 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.end-notification.retry.attempts
+[DEBUG] 2016-09-06 11:46:06.891 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.fs-limits.max-xattrs-per-inode
+[DEBUG] 2016-09-06 11:46:06.892 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.system.dir
+[DEBUG] 2016-09-06 11:46:06.893 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.file-block-storage-locations.timeout.millis
+[DEBUG] 2016-09-06 11:46:06.894 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.admin-env
+[DEBUG] 2016-09-06 11:46:06.894 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.jobhistory.block.size
+[DEBUG] 2016-09-06 11:46:06.895 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.log-aggregation.retain-seconds
+[DEBUG] 2016-09-06 11:46:06.899 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.indexcache.mb
+[DEBUG] 2016-09-06 11:46:06.899 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.handler-thread-count
+[DEBUG] 2016-09-06 11:46:06.900 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.checkpoint.check.period
+[DEBUG] 2016-09-06 11:46:06.901 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.hostname
+[DEBUG] 2016-09-06 11:46:06.902 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.block.write.replace-datanode-on-failure.enable
+[DEBUG] 2016-09-06 11:46:06.902 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for net.topology.impl
+[DEBUG] 2016-09-06 11:46:06.903 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.directoryscan.interval
+[DEBUG] 2016-09-06 11:46:06.903 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.container-monitor.interval-ms
+[DEBUG] 2016-09-06 11:46:06.904 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.default.chunk.view.size
+[DEBUG] 2016-09-06 11:46:06.904 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.speculative.slownodethreshold
+[DEBUG] 2016-09-06 11:46:06.905 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.reduce.slowstart.completedmaps
+[DEBUG] 2016-09-06 11:46:06.906 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapred.reducer.new-api
+[DEBUG] 2016-09-06 11:46:06.907 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.instrumentation.requires.admin
+[DEBUG] 2016-09-06 11:46:06.907 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.compression.codec.bzip2.library
+[DEBUG] 2016-09-06 11:46:06.908 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.http.authentication.signature.secret.file
+[DEBUG] 2016-09-06 11:46:06.909 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.safemode.min.datanodes
+[DEBUG] 2016-09-06 11:46:06.909 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.localizer.cache.target-size-mb
+[DEBUG] 2016-09-06 11:46:06.911 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.maxattempts
+[DEBUG] 2016-09-06 11:46:06.916 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.input.fileinputformat.inputdir
+[DEBUG] 2016-09-06 11:46:06.919 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.https.address
+[DEBUG] 2016-09-06 11:46:06.922 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3native.replication
+[DEBUG] 2016-09-06 11:46:06.923 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.path.based.cache.retry.interval.ms
+[DEBUG] 2016-09-06 11:46:06.923 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.skip.proc.count.autoincr
+[DEBUG] 2016-09-06 11:46:06.924 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.cleaner.interval-ms
+[DEBUG] 2016-09-06 11:46:06.925 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for file.replication
+[DEBUG] 2016-09-06 11:46:06.926 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.hdfs.configuration.version
+[DEBUG] 2016-09-06 11:46:06.926 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.idlethreshold
+[DEBUG] 2016-09-06 11:46:06.927 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.tmp.dir
+[DEBUG] 2016-09-06 11:46:06.928 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.store.class
+[DEBUG] 2016-09-06 11:46:06.928 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.address
+[DEBUG] 2016-09-06 11:46:06.930 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.restart.recover
+[DEBUG] 2016-09-06 11:46:06.930 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.cluster.local.dir
+[DEBUG] 2016-09-06 11:46:06.931 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.client.nodemanager-client-async.thread-pool-max-size
+[DEBUG] 2016-09-06 11:46:06.931 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.ipc.serializer.type
+[DEBUG] 2016-09-06 11:46:06.932 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.decommission.nodes.per.interval
+[DEBUG] 2016-09-06 11:46:06.933 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.resource.cpu-vcores
+[DEBUG] 2016-09-06 11:46:06.933 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.reject-unresolved-dn-topology-mapping
+[DEBUG] 2016-09-06 11:46:06.934 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.delegation.key.update-interval
+[DEBUG] 2016-09-06 11:46:06.935 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3.buffer.dir
+[DEBUG] 2016-09-06 11:46:06.936 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.read.shortcircuit.streams.cache.expiry.ms
+[DEBUG] 2016-09-06 11:46:06.936 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.support.allow.format
+[DEBUG] 2016-09-06 11:46:06.937 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.remote-app-log-dir
+[DEBUG] 2016-09-06 11:46:06.938 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.edit.log.autoroll.multiplier.threshold
+[DEBUG] 2016-09-06 11:46:06.939 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.aux-services
+[DEBUG] 2016-09-06 11:46:06.939 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.work.around.non.threadsafe.getpwuid
+[DEBUG] 2016-09-06 11:46:06.940 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.profile.reduce.params
+[DEBUG] 2016-09-06 11:46:06.940 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.ha.automatic-failover.enabled
+[DEBUG] 2016-09-06 11:46:06.941 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.edits.noeditlogchannelflush
+[DEBUG] 2016-09-06 11:46:06.942 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.stale.datanode.interval
+[DEBUG] 2016-09-06 11:46:06.942 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.shuffle.transfer.buffer.size
+[DEBUG] 2016-09-06 11:46:06.943 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.persist.jobstatus.active
+[DEBUG] 2016-09-06 11:46:06.943 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.logging.level
+[DEBUG] 2016-09-06 11:46:06.943 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.log-dirs
+[DEBUG] 2016-09-06 11:46:06.944 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.health-monitor.sleep-after-disconnect.ms
+[DEBUG] 2016-09-06 11:46:06.945 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.fs.state-store.uri
+[DEBUG] 2016-09-06 11:46:06.945 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.checkpoint.edits.dir
+[DEBUG] 2016-09-06 11:46:06.946 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.keytab
+[DEBUG] 2016-09-06 11:46:06.947 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.rpc.socket.factory.class.default
+[DEBUG] 2016-09-06 11:46:06.948 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.http.address
+[DEBUG] 2016-09-06 11:46:06.948 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.profile
+[DEBUG] 2016-09-06 11:46:06.949 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.move.interval-ms
+[DEBUG] 2016-09-06 11:46:06.950 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.edits.dir
+[DEBUG] 2016-09-06 11:46:06.950 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.fuse.timer.period
+[DEBUG] 2016-09-06 11:46:06.951 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.http.policy
+[DEBUG] 2016-09-06 11:46:06.952 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.intermediate-done-dir
+[DEBUG] 2016-09-06 11:46:06.952 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.skip.proc.count.autoincr
+[DEBUG] 2016-09-06 11:46:06.953 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.AbstractFileSystem.viewfs.impl
+[DEBUG] 2016-09-06 11:46:06.953 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.speculative.slowtaskthreshold
+[DEBUG] 2016-09-06 11:46:06.954 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.webapp.delegation-token-auth-filter.enabled
+[DEBUG] 2016-09-06 11:46:06.954 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3native.stream-buffer-size
+[DEBUG] 2016-09-06 11:46:06.955 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.delete.debug-delay-sec
+[DEBUG] 2016-09-06 11:46:06.955 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.secondary.namenode.kerberos.internal.spnego.principal
+[DEBUG] 2016-09-06 11:46:06.956 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.available-space-volume-choosing-policy.balanced-space-threshold
+[DEBUG] 2016-09-06 11:46:06.956 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3n.multipart.uploads.block.size
+[DEBUG] 2016-09-06 11:46:06.957 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.safemode.threshold-pct
+[DEBUG] 2016-09-06 11:46:06.957 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.ifile.readahead.bytes
+[DEBUG] 2016-09-06 11:46:06.958 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.scheduler.maximum-allocation-mb
+[DEBUG] 2016-09-06 11:46:06.959 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ipc.client.fallback-to-simple-auth-allowed
+[DEBUG] 2016-09-06 11:46:06.960 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.har.impl.disable.cache
+[DEBUG] 2016-09-06 11:46:06.961 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.leveldb-timeline-store.read-cache-size
+[DEBUG] 2016-09-06 11:46:06.961 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.hostname
+[DEBUG] 2016-09-06 11:46:06.962 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3native.bytes-per-checksum
+[DEBUG] 2016-09-06 11:46:06.962 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.committer.setup.cleanup.needed
+[DEBUG] 2016-09-06 11:46:06.963 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.leveldb-timeline-store.ttl-interval-ms
+[DEBUG] 2016-09-06 11:46:06.963 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.log-aggregation.compression-type
+[DEBUG] 2016-09-06 11:46:06.964 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.job.committer.commit-window
+[DEBUG] 2016-09-06 11:46:06.966 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.http.authentication.type
+[DEBUG] 2016-09-06 11:46:06.973 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.failover.sleep.base.millis
+[DEBUG] 2016-09-06 11:46:06.975 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.submithostaddress
+[DEBUG] 2016-09-06 11:46:06.977 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.vmem-check-enabled
+[DEBUG] 2016-09-06 11:46:06.979 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.jetty.logs.serve.aliases
+[DEBUG] 2016-09-06 11:46:06.979 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.failover-controller.graceful-fence.rpc-timeout.ms
+[DEBUG] 2016-09-06 11:46:06.980 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.shuffle.input.buffer.percent
+[DEBUG] 2016-09-06 11:46:06.981 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.max.transfer.threads
+[DEBUG] 2016-09-06 11:46:06.981 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.merge.inmem.threshold
+[DEBUG] 2016-09-06 11:46:06.982 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.io.sort.mb
+[DEBUG] 2016-09-06 11:46:06.983 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.acls.enabled
+[DEBUG] 2016-09-06 11:46:06.983 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.client.application-client-protocol.poll-interval-ms
+[DEBUG] 2016-09-06 11:46:06.984 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.handler.count
+[DEBUG] 2016-09-06 11:46:06.985 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.connect.max-wait.ms
+[DEBUG] 2016-09-06 11:46:06.985 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.retrycache.heap.percent
+[DEBUG] 2016-09-06 11:46:06.986 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.enabled
+[DEBUG] 2016-09-06 11:46:06.986 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.ssl.client.conf
+[DEBUG] 2016-09-06 11:46:06.987 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.container.liveness-monitor.interval-ms
+[DEBUG] 2016-09-06 11:46:06.987 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.vmem-pmem-ratio
+[DEBUG] 2016-09-06 11:46:06.988 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.client.completion.pollinterval
+[DEBUG] 2016-09-06 11:46:06.989 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.client.max-retries
+[DEBUG] 2016-09-06 11:46:06.989 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.ssl.enabled
+[DEBUG] 2016-09-06 11:46:06.990 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.client.resolve.remote.symlinks
+[DEBUG] 2016-09-06 11:46:06.990 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.AbstractFileSystem.hdfs.impl
+[DEBUG] 2016-09-06 11:46:06.991 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.reduce.tasks.maximum
+[DEBUG] 2016-09-06 11:46:06.991 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.hostname
+[DEBUG] 2016-09-06 11:46:06.992 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.input.buffer.percent
+[DEBUG] 2016-09-06 11:46:06.993 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.command-opts
+[DEBUG] 2016-09-06 11:46:06.994 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.invalidate.work.pct.per.iteration
+[DEBUG] 2016-09-06 11:46:06.994 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.bytes-per-checksum
+[DEBUG] 2016-09-06 11:46:06.995 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.webapp.https.address
+[DEBUG] 2016-09-06 11:46:06.996 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.replication
+[DEBUG] 2016-09-06 11:46:06.996 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.shuffle.ssl.file.buffer.size
+[DEBUG] 2016-09-06 11:46:07.004 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.list.cache.directives.num.responses
+[DEBUG] 2016-09-06 11:46:07.004 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.permissions.enabled
+[DEBUG] 2016-09-06 11:46:07.005 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.maxtasks.perjob
+[DEBUG] 2016-09-06 11:46:07.006 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.use.datanode.hostname
+[DEBUG] 2016-09-06 11:46:07.006 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.userlog.limit.kb
+[DEBUG] 2016-09-06 11:46:07.011 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.fs-limits.max-directory-items
+[DEBUG] 2016-09-06 11:46:07.011 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3.client-write-packet-size
+[DEBUG] 2016-09-06 11:46:07.012 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.user.group.static.mapping.overrides
+[DEBUG] 2016-09-06 11:46:07.012 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.shuffle.max.threads
+[DEBUG] 2016-09-06 11:46:07.013 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.failover.sleep.max.millis
+[DEBUG] 2016-09-06 11:46:07.013 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.maps
+[DEBUG] 2016-09-06 11:46:07.015 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.fs-limits.max-component-length
+[DEBUG] 2016-09-06 11:46:07.016 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.ssl.enabled.protocols
+[DEBUG] 2016-09-06 11:46:07.020 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3.blocksize
+[DEBUG] 2016-09-06 11:46:07.026 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.output.compress
+[DEBUG] 2016-09-06 11:46:07.027 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.generic-application-history.fs-history-store.uri
+[DEBUG] 2016-09-06 11:46:07.029 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.edits.journal-plugin.qjournal
+[DEBUG] 2016-09-06 11:46:07.036 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.datanode.registration.ip-hostname-check
+[DEBUG] 2016-09-06 11:46:07.037 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.pmem-check-enabled
+[DEBUG] 2016-09-06 11:46:07.038 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.short.circuit.replica.stale.threshold.ms
+[DEBUG] 2016-09-06 11:46:07.038 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.https.need-auth
+[DEBUG] 2016-09-06 11:46:07.039 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.scheduler.minimum-allocation-mb
+[DEBUG] 2016-09-06 11:46:07.039 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.max-age-ms
+[DEBUG] 2016-09-06 11:46:07.040 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ftp.replication
+[DEBUG] 2016-09-06 11:46:07.047 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.secondary.https-address
+[DEBUG] 2016-09-06 11:46:07.048 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.blockreport.split.threshold
+[DEBUG] 2016-09-06 11:46:07.048 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.input.fileinputformat.split.minsize
+[DEBUG] 2016-09-06 11:46:07.049 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3n.block.size
+[DEBUG] 2016-09-06 11:46:07.050 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.token.tracking.ids.enabled
+[DEBUG] 2016-09-06 11:46:07.051 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.ipc.rpc.class
+[DEBUG] 2016-09-06 11:46:07.051 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.num.extra.edits.retained
+[DEBUG] 2016-09-06 11:46:07.052 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.localizer.cache.cleanup.interval-ms
+[DEBUG] 2016-09-06 11:46:07.053 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.http.staticuser.user
+[DEBUG] 2016-09-06 11:46:07.056 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.jvm.numtasks
+[DEBUG] 2016-09-06 11:46:07.057 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.move.thread-count
+[DEBUG] 2016-09-06 11:46:07.058 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.profile.maps
+[DEBUG] 2016-09-06 11:46:07.059 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.resourcemanager.connect.wait.secs
+[DEBUG] 2016-09-06 11:46:07.059 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.max.locked.memory
+[DEBUG] 2016-09-06 11:46:07.062 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.cachereport.intervalMsec
+[DEBUG] 2016-09-06 11:46:07.062 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.shuffle.port
+[DEBUG] 2016-09-06 11:46:07.063 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.nodemanager.minimum.version
+[DEBUG] 2016-09-06 11:46:07.064 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.shuffle.connection-keep-alive.timeout
+[DEBUG] 2016-09-06 11:46:07.066 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.reduce.shuffle.merge.percent
+[DEBUG] 2016-09-06 11:46:07.072 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobtracker.http.address
+[DEBUG] 2016-09-06 11:46:07.072 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.skip.start.attempts
+[DEBUG] 2016-09-06 11:46:07.073 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.connect.retry-interval.ms
+[DEBUG] 2016-09-06 11:46:07.074 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.scheduler.minimum-allocation-vcores
+[DEBUG] 2016-09-06 11:46:07.074 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.task.io.sort.factor
+[DEBUG] 2016-09-06 11:46:07.075 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.checkpoint.dir
+[DEBUG] 2016-09-06 11:46:07.075 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for nfs.exports.allowed.hosts
+[DEBUG] 2016-09-06 11:46:07.076 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for tfile.fs.input.buffer.size
+[DEBUG] 2016-09-06 11:46:07.077 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3.block.size
+[DEBUG] 2016-09-06 11:46:07.077 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for tfile.io.chunk.size
+[DEBUG] 2016-09-06 11:46:07.078 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3n.multipart.copy.block.size
+[DEBUG] 2016-09-06 11:46:07.078 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.serializations
+[DEBUG] 2016-09-06 11:46:07.079 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.max-completed-applications
+[DEBUG] 2016-09-06 11:46:07.080 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.jobhistory.principal
+[DEBUG] 2016-09-06 11:46:07.080 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.output.fileoutputformat.outputdir
+[DEBUG] 2016-09-06 11:46:07.081 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.ha.automatic-failover.zk-base-path
+[DEBUG] 2016-09-06 11:46:07.081 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.end-notification.retry.interval
+[DEBUG] 2016-09-06 11:46:07.082 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.backup.address
+[DEBUG] 2016-09-06 11:46:07.083 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3n.multipart.uploads.enabled
+[DEBUG] 2016-09-06 11:46:07.083 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.seqfile.sorter.recordlimit
+[DEBUG] 2016-09-06 11:46:07.084 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.block.access.token.enable
+[DEBUG] 2016-09-06 11:46:07.084 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for s3native.client-write-packet-size
+[DEBUG] 2016-09-06 11:46:07.086 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.fs-limits.max-xattr-size
+[DEBUG] 2016-09-06 11:46:07.086 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ftp.bytes-per-checksum
+[DEBUG] 2016-09-06 11:46:07.087 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.security.group.mapping
+[DEBUG] 2016-09-06 11:46:07.087 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.domain.socket.data.traffic
+[DEBUG] 2016-09-06 11:46:07.088 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.read.shortcircuit.streams.cache.size
+[DEBUG] 2016-09-06 11:46:07.088 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.end-notification.max.retry.interval
+[DEBUG] 2016-09-06 11:46:07.089 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.acl.enable
+[DEBUG] 2016-09-06 11:46:07.090 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nm.liveness-monitor.expiry-interval-ms
+[DEBUG] 2016-09-06 11:46:07.090 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.mmap.cache.size
+[DEBUG] 2016-09-06 11:46:07.090 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.input.fileinputformat.list-status.num-threads
+[DEBUG] 2016-09-06 11:46:07.091 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.map.tasks.maximum
+[DEBUG] 2016-09-06 11:46:07.092 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.ttl-enable
+[DEBUG] 2016-09-06 11:46:07.092 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.nodemanager.linux-container-executor.resources-handler.class
+[DEBUG] 2016-09-06 11:46:07.093 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.max.objects
+[DEBUG] 2016-09-06 11:46:07.099 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.state-store.max-completed-applications
+[DEBUG] 2016-09-06 11:46:07.101 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.delegation.token.max-lifetime
+[DEBUG] 2016-09-06 11:46:07.102 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.classloader
+[DEBUG] 2016-09-06 11:46:07.102 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.timeline-service.leveldb-timeline-store.start-time-write-cache-size
+[DEBUG] 2016-09-06 11:46:07.103 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.hdfs-servers
+[DEBUG] 2016-09-06 11:46:07.104 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.hdfs-blocks-metadata.enabled
+[DEBUG] 2016-09-06 11:46:07.104 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.dns.nameserver
+[DEBUG] 2016-09-06 11:46:07.105 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.readahead.bytes
+[DEBUG] 2016-09-06 11:46:07.106 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.ubertask.maxreduces
+[DEBUG] 2016-09-06 11:46:07.106 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.image.compress
+[DEBUG] 2016-09-06 11:46:07.107 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.shuffle.ssl.enabled
+[DEBUG] 2016-09-06 11:46:07.107 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.report.address
+[DEBUG] 2016-09-06 11:46:07.108 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.log-aggregation-enable
+[DEBUG] 2016-09-06 11:46:07.108 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.tasktracker.http.threads
+[DEBUG] 2016-09-06 11:46:07.109 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.stream-buffer-size
+[DEBUG] 2016-09-06 11:46:07.109 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for tfile.fs.output.buffer.size
+[DEBUG] 2016-09-06 11:46:07.110 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.permissions.umask-mode
+[DEBUG] 2016-09-06 11:46:07.111 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.client.datanode-restart.timeout
+[DEBUG] 2016-09-06 11:46:07.111 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.resourcemanager.am.max-attempts
+[DEBUG] 2016-09-06 11:46:07.112 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for ha.failover-controller.graceful-fence.connection.retries
+[DEBUG] 2016-09-06 11:46:07.112 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.datanode.drop.cache.behind.writes
+[DEBUG] 2016-09-06 11:46:07.113 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.map.output.value.class
+[DEBUG] 2016-09-06 11:46:07.114 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for hadoop.common.configuration.version
+[DEBUG] 2016-09-06 11:46:07.115 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.ubertask.enable
+[DEBUG] 2016-09-06 11:46:07.115 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for yarn.app.mapreduce.am.resource.cpu-vcores
+[DEBUG] 2016-09-06 11:46:07.115 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for dfs.namenode.replication.work.multiplier.per.iteration
+[DEBUG] 2016-09-06 11:46:07.116 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.job.acl-modify-job
+[DEBUG] 2016-09-06 11:46:07.117 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for io.seqfile.local.dir
+[DEBUG] 2016-09-06 11:46:07.118 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for fs.s3.sleepTimeSeconds
+[DEBUG] 2016-09-06 11:46:07.118 [] [] [main] org.apache.hadoop.conf.Configuration.handleDeprecation(Configuration.java:604) Handling deprecation for mapreduce.client.output.filter
+[DEBUG] 2016-09-06 11:46:07.437 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.writeChunk(DFSOutputStream.java:1743) DFSClient writeChunk allocating new packet seqno=0, src=/tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml, packetSize=65532, chunksPerPacket=127, bytesCurBlock=0
+[DEBUG] 2016-09-06 11:46:07.750 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.writeChunk(DFSOutputStream.java:1762) DFSClient writeChunk packet full seqno=0, src=/tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml, bytesCurBlock=65024, blockSize=134217728, appendChunk=false
+[DEBUG] 2016-09-06 11:46:07.752 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.queueCurrentPacket(DFSOutputStream.java:1686) Queued packet 0
+[DEBUG] 2016-09-06 11:46:07.753 [] [] [Thread-10] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:524) Allocating new block
+[DEBUG] 2016-09-06 11:46:07.759 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #22
+[DEBUG] 2016-09-06 11:46:07.760 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.computePacketChunkSize(DFSOutputStream.java:1673) computePacketChunkSize: src=/tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml, chunkSize=516, chunksPerPacket=127, packetSize=65532
+[DEBUG] 2016-09-06 11:46:07.761 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.writeChunk(DFSOutputStream.java:1743) DFSClient writeChunk allocating new packet seqno=1, src=/tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml, packetSize=65532, chunksPerPacket=127, bytesCurBlock=65024
+[DEBUG] 2016-09-06 11:46:07.763 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #22
+[DEBUG] 2016-09-06 11:46:07.763 [] [] [Thread-10] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: addBlock took 4ms
+[DEBUG] 2016-09-06 11:46:07.764 [] [] [Thread-10] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.createBlockOutputStream(DFSOutputStream.java:1314) pipeline = 10.20.0.11:50010
+[DEBUG] 2016-09-06 11:46:07.764 [] [] [Thread-10] org.apache.hadoop.hdfs.DFSOutputStream.createSocketForPipeline(DFSOutputStream.java:1521) Connecting to datanode 10.20.0.11:50010
+[DEBUG] 2016-09-06 11:46:07.764 [] [] [Thread-10] org.apache.hadoop.hdfs.DFSOutputStream.createSocketForPipeline(DFSOutputStream.java:1530) Send buf size 131072
+[DEBUG] 2016-09-06 11:46:07.771 [] [] [DataStreamer for file /tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:574) DataStreamer block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255 sending packet packet seqno:0 offsetInBlock:0 lastPacketInBlock:false lastByteOffsetInBlock: 65024
+[DEBUG] 2016-09-06 11:46:07.777 [] [] [ResponseProcessor for block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:807) DFSClient seqno: 0 status: SUCCESS downstreamAckTimeNanos: 0
+[DEBUG] 2016-09-06 11:46:07.851 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.queueCurrentPacket(DFSOutputStream.java:1686) Queued packet 1
+[DEBUG] 2016-09-06 11:46:07.852 [] [] [DataStreamer for file /tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:574) DataStreamer block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255 sending packet packet seqno:1 offsetInBlock:65024 lastPacketInBlock:false lastByteOffsetInBlock: 80278
+[DEBUG] 2016-09-06 11:46:07.853 [] [] [ResponseProcessor for block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:807) DFSClient seqno: 1 status: SUCCESS downstreamAckTimeNanos: 0
+[DEBUG] 2016-09-06 11:46:07.853 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.queueCurrentPacket(DFSOutputStream.java:1686) Queued packet 2
+[DEBUG] 2016-09-06 11:46:07.855 [] [] [DataStreamer for file /tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.run(DFSOutputStream.java:574) DataStreamer block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255 sending packet packet seqno:2 offsetInBlock:80278 lastPacketInBlock:true lastByteOffsetInBlock: 80278
+[DEBUG] 2016-09-06 11:46:07.857 [] [] [ResponseProcessor for block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer$ResponseProcessor.run(DFSOutputStream.java:807) DFSClient seqno: 2 status: SUCCESS downstreamAckTimeNanos: 0
+[DEBUG] 2016-09-06 11:46:07.861 [] [] [DataStreamer for file /tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023/job.xml block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255] org.apache.hadoop.hdfs.DFSOutputStream$DataStreamer.endBlock(DFSOutputStream.java:454) Closing old block BP-1453503975-127.0.0.1-1472638507812:blk_1073742079_1255
+[DEBUG] 2016-09-06 11:46:07.861 [] [] [main] org.apache.hadoop.hdfs.DFSOutputStream.waitForAckedSeqno(DFSOutputStream.java:2022) Waiting for ack for: 2
+[DEBUG] 2016-09-06 11:46:07.863 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #23
+[DEBUG] 2016-09-06 11:46:07.869 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #23
+[DEBUG] 2016-09-06 11:46:07.869 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: complete took 6ms
+[INFO ] 2016-09-06 11:46:07.870 [] [] [main] org.apache.hadoop.mapreduce.JobSubmitter.printTokens(JobSubmitter.java:479) Submitting tokens for job: job_1472784645996_0023
+[DEBUG] 2016-09-06 11:46:07.871 [] [] [main] org.apache.hadoop.mapred.ClientCache.instantiateHistoryProxy(ClientCache.java:88) Connecting to HistoryServer at: 0.0.0.0:10020
+[DEBUG] 2016-09-06 11:46:07.872 [] [] [main] org.apache.hadoop.yarn.ipc.YarnRPC.create(YarnRPC.java:59) Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
+[DEBUG] 2016-09-06 11:46:07.876 [] [] [main] org.apache.hadoop.mapred.ClientCache.instantiateHistoryProxy(ClientCache.java:90) Connected to HistoryServer at: 0.0.0.0:10020
+[DEBUG] 2016-09-06 11:46:07.885 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.mapred.ClientCache.instantiateHistoryProxy(ClientCache.java:92)
+[DEBUG] 2016-09-06 11:46:07.891 [] [] [main] org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC.getProxy(HadoopYarnProtoRPC.java:47) Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.mapreduce.v2.api.HSClientProtocol
+[DEBUG] 2016-09-06 11:46:07.924 [] [] [main] org.apache.hadoop.ipc.ClientCache.getClient(ClientCache.java:63) getting client out of cache: org.apache.hadoop.ipc.Client@6001fc84
+[DEBUG] 2016-09-06 11:46:08.074 [] [] [main] org.apache.hadoop.mapred.YARNRunner.createApplicationSubmissionContext(YARNRunner.java:339) AppMaster capability = <memory:1536, vCores:1>
+[DEBUG] 2016-09-06 11:46:08.080 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #24
+[DEBUG] 2016-09-06 11:46:08.081 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #24
+[DEBUG] 2016-09-06 11:46:08.082 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 2ms
+[DEBUG] 2016-09-06 11:46:08.135 [] [] [main] org.apache.hadoop.mapred.YARNRunner.createApplicationSubmissionContext(YARNRunner.java:351) Creating setup context, jobSubmitDir url is scheme: "hdfs" host: "HADOOP-NODE1" port: 9000 file: "/tmp/hadoop-yarn/staging/root/.staging/job_1472784645996_0023"
+[DEBUG] 2016-09-06 11:46:08.158 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #25
+[DEBUG] 2016-09-06 11:46:08.159 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #25
+[DEBUG] 2016-09-06 11:46:08.159 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 2ms
+[DEBUG] 2016-09-06 11:46:08.161 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #26
+[DEBUG] 2016-09-06 11:46:08.162 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #26
+[DEBUG] 2016-09-06 11:46:08.162 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 1ms
+[INFO ] 2016-09-06 11:46:08.172 [] [] [main] org.apache.hadoop.mapred.YARNRunner.createApplicationSubmissionContext(YARNRunner.java:369) Job jar is not present. Not adding any jar to the list of resources.
+[DEBUG] 2016-09-06 11:46:08.176 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #27
+[DEBUG] 2016-09-06 11:46:08.177 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #27
+[DEBUG] 2016-09-06 11:46:08.177 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 3ms
+[DEBUG] 2016-09-06 11:46:08.179 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #28
+[DEBUG] 2016-09-06 11:46:08.180 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #28
+[DEBUG] 2016-09-06 11:46:08.180 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 1ms
+[DEBUG] 2016-09-06 11:46:08.184 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #29
+[DEBUG] 2016-09-06 11:46:08.186 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #29
+[DEBUG] 2016-09-06 11:46:08.186 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 2ms
+[DEBUG] 2016-09-06 11:46:08.189 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #30
+[DEBUG] 2016-09-06 11:46:08.190 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #30
+[DEBUG] 2016-09-06 11:46:08.190 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 1ms
+[DEBUG] 2016-09-06 11:46:08.196 [] [] [main] org.apache.hadoop.mapred.YARNRunner.createApplicationSubmissionContext(YARNRunner.java:442) Command to launch container for ApplicationMaster is : $JAVA_HOME/bin/java -Dlog4j.configuration=container-log4j.properties -Dyarn.app.container.log.dir=<LOG_DIR> -Dyarn.app.container.log.filesize=0 -Dhadoop.root.logger=INFO,CLA  -Xmx1024m org.apache.hadoop.mapreduce.v2.app.MRAppMaster 1><LOG_DIR>/stdout 2><LOG_DIR>/stderr 
+[DEBUG] 2016-09-06 11:46:08.350 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #31
+[DEBUG] 2016-09-06 11:46:08.354 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #31
+[DEBUG] 2016-09-06 11:46:08.355 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: submitApplication took 6ms
+[DEBUG] 2016-09-06 11:46:08.368 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #32
+[DEBUG] 2016-09-06 11:46:08.369 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #32
+[DEBUG] 2016-09-06 11:46:08.369 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getApplicationReport took 2ms
+[INFO ] 2016-09-06 11:46:08.404 [] [] [main] org.apache.hadoop.yarn.client.api.impl.YarnClientImpl.submitApplication(YarnClientImpl.java:236) Submitted application application_1472784645996_0023
+[DEBUG] 2016-09-06 11:46:08.405 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #33
+[DEBUG] 2016-09-06 11:46:08.406 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #33
+[DEBUG] 2016-09-06 11:46:08.406 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getApplicationReport took 1ms
+[DEBUG] 2016-09-06 11:46:08.456 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #34
+[DEBUG] 2016-09-06 11:46:08.458 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #34
+[DEBUG] 2016-09-06 11:46:08.458 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getApplicationReport took 2ms
+[INFO ] 2016-09-06 11:46:08.520 [] [] [main] org.apache.hadoop.mapreduce.Job.submit(Job.java:1289) The url to track the job: http://HADOOP-NODE1:8088/proxy/application_1472784645996_0023/
+[DEBUG] 2016-09-06 11:46:18.189 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root: closed
+[DEBUG] 2016-09-06 11:46:18.189 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:963) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:9000 from root: stopped, remaining connections 1
+[DEBUG] 2016-09-06 11:46:18.456 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: closed
+[DEBUG] 2016-09-06 11:46:18.456 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:963) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: stopped, remaining connections 0
+[DEBUG] 2016-09-06 11:46:36.089 [] [] [LeaseRenewer:root@HADOOP-NODE1:9000] org.apache.hadoop.hdfs.LeaseRenewer.run(LeaseRenewer.java:444) Lease renewer daemon for [] with renew id 1 executed
+[INFO ] 2016-09-06 11:46:40.600 [] [] [main] org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1334) Running job: job_1472784645996_0023
+[DEBUG] 2016-09-06 11:46:40.602 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+[DEBUG] 2016-09-06 11:46:40.604 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-06 11:46:40.604 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to HADOOP-NODE1/10.20.0.11:8032
+[DEBUG] 2016-09-06 11:46:40.612 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #35
+[DEBUG] 2016-09-06 11:46:40.614 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:945) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: starting, having connections 1
+[DEBUG] 2016-09-06 11:46:40.616 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #35
+[DEBUG] 2016-09-06 11:46:40.616 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getApplicationReport took 13ms
+[INFO ] 2016-09-06 11:46:40.617 [] [] [main] org.apache.hadoop.mapred.ClientServiceDelegate.getProxy(ClientServiceDelegate.java:273) Application state is completed. FinalApplicationStatus=FAILED. Redirecting to job history server
+[DEBUG] 2016-09-06 11:46:40.618 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-06 11:46:40.618 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to /0.0.0.0:10020
+[INFO ] 2016-09-06 11:46:41.622 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:42.623 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:43.624 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:44.625 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:45.626 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:46.628 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:47.628 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:48.630 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:49.632 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:46:50.617 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: closed
+[DEBUG] 2016-09-06 11:46:50.617 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:963) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: stopped, remaining connections 1
+[INFO ] 2016-09-06 11:46:50.634 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:46:50.636 [] [] [main] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1159) closing ipc connection to 0.0.0.0/0.0.0.0:10020: Connection refused
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:606)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:700)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:367)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1463)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1382)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at com.sun.proxy.$Proxy18.getJobReport(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.api.impl.pb.client.MRClientProtocolPBClientImpl.getJobReport(MRClientProtocolPBClientImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:320)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobStatus(ClientServiceDelegate.java:419)
+	at org.apache.hadoop.mapred.YARNRunner.getJobStatus(YARNRunner.java:532)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:314)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:311)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
+	at org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+	at org.apache.hadoop.mapreduce.Job.isComplete(Job.java:599)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1306)
+	at com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:51)
+[DEBUG] 2016-09-06 11:46:50.644 [] [] [main] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to /0.0.0.0:10020 from root: closed
+[DEBUG] 2016-09-06 11:46:50.646 [] [] [main] org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:323) Failed to contact AM/History for job job_1472784645996_0023 retrying..
+java.net.ConnectException: Call From HADOOP-NODE1/10.20.0.11 to 0.0.0.0:10020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:783)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:730)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1415)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at com.sun.proxy.$Proxy18.getJobReport(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.api.impl.pb.client.MRClientProtocolPBClientImpl.getJobReport(MRClientProtocolPBClientImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:320)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobStatus(ClientServiceDelegate.java:419)
+	at org.apache.hadoop.mapred.YARNRunner.getJobStatus(YARNRunner.java:532)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:314)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:311)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
+	at org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+	at org.apache.hadoop.mapreduce.Job.isComplete(Job.java:599)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1306)
+	at com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:51)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:606)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:700)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:367)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1463)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1382)
+	... 21 more
+[DEBUG] 2016-09-06 11:46:50.752 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-06 11:46:50.753 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to HADOOP-NODE1/10.20.0.11:8032
+[DEBUG] 2016-09-06 11:46:50.760 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #37
+[DEBUG] 2016-09-06 11:46:50.762 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:945) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: starting, having connections 1
+[DEBUG] 2016-09-06 11:46:50.762 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #37
+[DEBUG] 2016-09-06 11:46:50.762 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getApplicationReport took 10ms
+[INFO ] 2016-09-06 11:46:50.762 [] [] [main] org.apache.hadoop.mapred.ClientServiceDelegate.getProxy(ClientServiceDelegate.java:273) Application state is completed. FinalApplicationStatus=FAILED. Redirecting to job history server
+[DEBUG] 2016-09-06 11:46:50.762 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-06 11:46:50.763 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to 0.0.0.0/0.0.0.0:10020
+[INFO ] 2016-09-06 11:46:51.764 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:52.765 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:53.766 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:54.767 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:55.767 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:56.769 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:57.770 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:58.771 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:46:59.773 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:47:00.763 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: closed
+[DEBUG] 2016-09-06 11:47:00.763 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:963) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: stopped, remaining connections 1
+[INFO ] 2016-09-06 11:47:00.774 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:47:00.776 [] [] [main] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1159) closing ipc connection to 0.0.0.0/0.0.0.0:10020: Connection refused
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:606)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:700)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:367)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1463)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1382)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at com.sun.proxy.$Proxy18.getJobReport(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.api.impl.pb.client.MRClientProtocolPBClientImpl.getJobReport(MRClientProtocolPBClientImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:320)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobStatus(ClientServiceDelegate.java:419)
+	at org.apache.hadoop.mapred.YARNRunner.getJobStatus(YARNRunner.java:532)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:314)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:311)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
+	at org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+	at org.apache.hadoop.mapreduce.Job.isComplete(Job.java:599)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1306)
+	at com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:51)
+[DEBUG] 2016-09-06 11:47:00.778 [] [] [main] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to 0.0.0.0/0.0.0.0:10020 from root: closed
+[DEBUG] 2016-09-06 11:47:00.779 [] [] [main] org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:323) Failed to contact AM/History for job job_1472784645996_0023 retrying..
+java.net.ConnectException: Call From HADOOP-NODE1/10.20.0.11 to 0.0.0.0:10020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:783)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:730)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1415)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at com.sun.proxy.$Proxy18.getJobReport(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.api.impl.pb.client.MRClientProtocolPBClientImpl.getJobReport(MRClientProtocolPBClientImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:320)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobStatus(ClientServiceDelegate.java:419)
+	at org.apache.hadoop.mapred.YARNRunner.getJobStatus(YARNRunner.java:532)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:314)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:311)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
+	at org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+	at org.apache.hadoop.mapreduce.Job.isComplete(Job.java:599)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1306)
+	at com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:51)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:606)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:700)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:367)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1463)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1382)
+	... 21 more
+[DEBUG] 2016-09-06 11:47:00.888 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-06 11:47:00.889 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to HADOOP-NODE1/10.20.0.11:8032
+[DEBUG] 2016-09-06 11:47:00.897 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root sending #39
+[DEBUG] 2016-09-06 11:47:00.901 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:945) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: starting, having connections 1
+[DEBUG] 2016-09-06 11:47:00.902 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root got value #39
+[DEBUG] 2016-09-06 11:47:00.903 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getApplicationReport took 15ms
+[INFO ] 2016-09-06 11:47:00.903 [] [] [main] org.apache.hadoop.mapred.ClientServiceDelegate.getProxy(ClientServiceDelegate.java:273) Application state is completed. FinalApplicationStatus=FAILED. Redirecting to job history server
+[DEBUG] 2016-09-06 11:47:00.903 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-06 11:47:00.904 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to 0.0.0.0/0.0.0.0:10020
+[INFO ] 2016-09-06 11:47:01.904 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 0 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:47:02.906 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 1 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:47:03.906 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 2 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:47:04.907 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 3 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:47:05.908 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 4 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:47:06.106 [] [] [LeaseRenewer:root@HADOOP-NODE1:9000] org.apache.hadoop.hdfs.LeaseRenewer.run(LeaseRenewer.java:444) Lease renewer daemon for [] with renew id 1 executed
+[INFO ] 2016-09-06 11:47:06.909 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 5 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:47:07.911 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 6 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:47:08.107 [] [] [LeaseRenewer:root@HADOOP-NODE1:9000] org.apache.hadoop.hdfs.LeaseRenewer.run(LeaseRenewer.java:470) Lease renewer daemon for [] with renew id 1 expired
+[DEBUG] 2016-09-06 11:47:08.108 [] [] [LeaseRenewer:root@HADOOP-NODE1:9000] org.apache.hadoop.hdfs.LeaseRenewer$1.run(LeaseRenewer.java:309) Lease renewer daemon for [] with renew id 1 exited
+[INFO ] 2016-09-06 11:47:08.912 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 7 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[INFO ] 2016-09-06 11:47:09.913 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 8 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:47:10.901 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: closed
+[DEBUG] 2016-09-06 11:47:10.902 [] [] [IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:963) IPC Client (1222858097) connection to HADOOP-NODE1/10.20.0.11:8032 from root: stopped, remaining connections 1
+[INFO ] 2016-09-06 11:47:10.915 [] [] [main] org.apache.hadoop.ipc.Client$Connection.handleConnectionFailure(Client.java:842) Retrying connect to server: 0.0.0.0/0.0.0.0:10020. Already tried 9 time(s); retry policy is RetryUpToMaximumCountWithFixedSleep(maxRetries=10, sleepTime=1000 MILLISECONDS)
+[DEBUG] 2016-09-06 11:47:10.916 [] [] [main] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1159) closing ipc connection to 0.0.0.0/0.0.0.0:10020: Connection refused
+java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:606)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:700)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:367)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1463)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1382)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at com.sun.proxy.$Proxy18.getJobReport(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.api.impl.pb.client.MRClientProtocolPBClientImpl.getJobReport(MRClientProtocolPBClientImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:320)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobStatus(ClientServiceDelegate.java:419)
+	at org.apache.hadoop.mapred.YARNRunner.getJobStatus(YARNRunner.java:532)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:314)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:311)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
+	at org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+	at org.apache.hadoop.mapreduce.Job.isComplete(Job.java:599)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1306)
+	at com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:51)
+[DEBUG] 2016-09-06 11:47:10.917 [] [] [main] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1222858097) connection to 0.0.0.0/0.0.0.0:10020 from root: closed
+[DEBUG] 2016-09-06 11:47:10.917 [] [] [main] org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:323) Failed to contact AM/History for job job_1472784645996_0023 retrying..
+java.net.ConnectException: Call From HADOOP-NODE1/10.20.0.11 to 0.0.0.0:10020 failed on connection exception: java.net.ConnectException: Connection refused; For more details see:  http://wiki.apache.org/hadoop/ConnectionRefused
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.apache.hadoop.net.NetUtils.wrapWithMessage(NetUtils.java:783)
+	at org.apache.hadoop.net.NetUtils.wrapException(NetUtils.java:730)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1415)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1364)
+	at org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:206)
+	at com.sun.proxy.$Proxy18.getJobReport(Unknown Source)
+	at org.apache.hadoop.mapreduce.v2.api.impl.pb.client.MRClientProtocolPBClientImpl.getJobReport(MRClientProtocolPBClientImpl.java:133)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.invoke(ClientServiceDelegate.java:320)
+	at org.apache.hadoop.mapred.ClientServiceDelegate.getJobStatus(ClientServiceDelegate.java:419)
+	at org.apache.hadoop.mapred.YARNRunner.getJobStatus(YARNRunner.java:532)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:314)
+	at org.apache.hadoop.mapreduce.Job$1.run(Job.java:311)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at javax.security.auth.Subject.doAs(Subject.java:415)
+	at org.apache.hadoop.security.UserGroupInformation.doAs(UserGroupInformation.java:1614)
+	at org.apache.hadoop.mapreduce.Job.updateStatus(Job.java:311)
+	at org.apache.hadoop.mapreduce.Job.isComplete(Job.java:599)
+	at org.apache.hadoop.mapreduce.Job.monitorAndPrintJob(Job.java:1344)
+	at org.apache.hadoop.mapreduce.Job.waitForCompletion(Job.java:1306)
+	at com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:51)
+Caused by: java.net.ConnectException: Connection refused
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:739)
+	at org.apache.hadoop.net.SocketIOWithTimeout.connect(SocketIOWithTimeout.java:206)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:529)
+	at org.apache.hadoop.net.NetUtils.connect(NetUtils.java:493)
+	at org.apache.hadoop.ipc.Client$Connection.setupConnection(Client.java:606)
+	at org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:700)
+	at org.apache.hadoop.ipc.Client$Connection.access$2800(Client.java:367)
+	at org.apache.hadoop.ipc.Client.getConnection(Client.java:1463)
+	at org.apache.hadoop.ipc.Client.call(Client.java:1382)
+	... 21 more
+[DEBUG] 2016-09-07 11:25:13.228 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.main(MRTest.java:18) MRTest: MRTest STARTED...
+[DEBUG] 2016-09-07 11:25:13.700 [] [] [main] org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField(MutableMetricsFactory.java:42) field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginSuccess with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of successful kerberos logins and latency (milliseconds)], about=, type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] 2016-09-07 11:25:13.712 [] [] [main] org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField(MutableMetricsFactory.java:42) field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.loginFailure with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[Rate of failed kerberos logins and latency (milliseconds)], about=, type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] 2016-09-07 11:25:13.713 [] [] [main] org.apache.hadoop.metrics2.lib.MutableMetricsFactory.newForField(MutableMetricsFactory.java:42) field org.apache.hadoop.metrics2.lib.MutableRate org.apache.hadoop.security.UserGroupInformation$UgiMetrics.getGroups with annotation @org.apache.hadoop.metrics2.annotation.Metric(valueName=Time, value=[GetGroups], about=, type=DEFAULT, always=false, sampleName=Ops)
+[DEBUG] 2016-09-07 11:25:13.714 [] [] [main] org.apache.hadoop.metrics2.impl.MetricsSystemImpl.register(MetricsSystemImpl.java:221) UgiMetrics, User and group related metrics
+[DEBUG] 2016-09-07 11:25:14.124 [] [] [main] org.apache.hadoop.security.authentication.util.KerberosName.<clinit>(KerberosName.java:88) Kerberos krb5 configuration not found, setting default realm to empty
+[DEBUG] 2016-09-07 11:25:14.128 [] [] [main] org.apache.hadoop.security.Groups.getUserToGroupsMappingService(Groups.java:238)  Creating new Groups object
+[DEBUG] 2016-09-07 11:25:14.136 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:46) Trying to load the custom-built native-hadoop library...
+[DEBUG] 2016-09-07 11:25:14.145 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:55) Failed to load native-hadoop with error: java.lang.UnsatisfiedLinkError: no hadoop in java.library.path
+[DEBUG] 2016-09-07 11:25:14.145 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:56) java.library.path=/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+[WARN ] 2016-09-07 11:25:14.145 [] [] [main] org.apache.hadoop.util.NativeCodeLoader.<clinit>(NativeCodeLoader.java:62) Unable to load native-hadoop library for your platform... using builtin-java classes where applicable
+[DEBUG] 2016-09-07 11:25:14.146 [] [] [main] org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init>(JniBasedUnixGroupsMappingWithFallback.java:40) Falling back to shell based
+[DEBUG] 2016-09-07 11:25:14.150 [] [] [main] org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback.<init>(JniBasedUnixGroupsMappingWithFallback.java:44) Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping
+[DEBUG] 2016-09-07 11:25:14.195 [] [] [main] org.apache.hadoop.util.Shell.isSetsidSupported(Shell.java:396) setsid exited with exit code 0
+[DEBUG] 2016-09-07 11:25:14.195 [] [] [main] org.apache.hadoop.security.Groups.<init>(Groups.java:80) Group mapping impl=org.apache.hadoop.security.JniBasedUnixGroupsMappingWithFallback; cacheTimeout=300000; warningDeltaMs=5000
+[DEBUG] 2016-09-07 11:25:14.198 [] [] [main] org.apache.hadoop.security.UserGroupInformation$HadoopLoginModule.login(UserGroupInformation.java:195) hadoop login
+[DEBUG] 2016-09-07 11:25:14.199 [] [] [main] org.apache.hadoop.security.UserGroupInformation$HadoopLoginModule.commit(UserGroupInformation.java:144) hadoop login commit
+[DEBUG] 2016-09-07 11:25:14.202 [] [] [main] org.apache.hadoop.security.UserGroupInformation$HadoopLoginModule.commit(UserGroupInformation.java:174) using local user:UnixPrincipal: root
+[DEBUG] 2016-09-07 11:25:14.211 [] [] [main] org.apache.hadoop.security.UserGroupInformation.loginUserFromSubject(UserGroupInformation.java:785) UGI loginUser:root (auth:SIMPLE)
+[DEBUG] 2016-09-07 11:25:14.455 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:389) dfs.client.use.legacy.blockreader.local = false
+[DEBUG] 2016-09-07 11:25:14.456 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:392) dfs.client.read.shortcircuit = false
+[DEBUG] 2016-09-07 11:25:14.456 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:395) dfs.client.domain.socket.data.traffic = false
+[DEBUG] 2016-09-07 11:25:14.457 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:398) dfs.domain.socket.path = 
+[DEBUG] 2016-09-07 11:25:14.518 [] [] [main] org.apache.hadoop.io.retry.RetryUtils.getDefaultRetryPolicy(RetryUtils.java:74) multipleLinearRandomRetry = null
+[DEBUG] 2016-09-07 11:25:14.571 [] [] [main] org.apache.hadoop.ipc.Server.registerProtocolEngine(Server.java:228) rpcKind=RPC_PROTOCOL_BUFFER, rpcRequestWrapperClass=class org.apache.hadoop.ipc.ProtobufRpcEngine$RpcRequestWrapper, rpcInvoker=org.apache.hadoop.ipc.ProtobufRpcEngine$Server$ProtoBufRpcInvoker@513ba552
+[DEBUG] 2016-09-07 11:25:14.594 [] [] [main] org.apache.hadoop.ipc.ClientCache.getClient(ClientCache.java:63) getting client out of cache: org.apache.hadoop.ipc.Client@1f3c2480
+[DEBUG] 2016-09-07 11:25:14.922 [] [] [main] org.apache.hadoop.hdfs.shortcircuit.DomainSocketFactory.<init>(DomainSocketFactory.java:108) Both short-circuit local reads and UNIX domain socket are disabled.
+[DEBUG] 2016-09-07 11:25:14.931 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.connect(Job.java:1250)
+[DEBUG] 2016-09-07 11:25:14.984 [] [] [main] org.apache.hadoop.mapreduce.Cluster.initialize(Cluster.java:90) Trying ClientProtocolProvider : org.apache.hadoop.mapred.LocalClientProtocolProvider
+[DEBUG] 2016-09-07 11:25:14.985 [] [] [main] org.apache.hadoop.mapreduce.Cluster.initialize(Cluster.java:108) Cannot pick org.apache.hadoop.mapred.LocalClientProtocolProvider as the ClientProtocolProvider - returned null protocol
+[DEBUG] 2016-09-07 11:25:14.986 [] [] [main] org.apache.hadoop.mapreduce.Cluster.initialize(Cluster.java:90) Trying ClientProtocolProvider : org.apache.hadoop.mapred.YarnClientProtocolProvider
+[DEBUG] 2016-09-07 11:25:15.030 [] [] [main] org.apache.hadoop.service.AbstractService.enterState(AbstractService.java:452) Service: org.apache.hadoop.mapred.ResourceMgrDelegate entered state INITED
+[DEBUG] 2016-09-07 11:25:15.040 [] [] [main] org.apache.hadoop.service.AbstractService.enterState(AbstractService.java:452) Service: org.apache.hadoop.yarn.client.api.impl.YarnClientImpl entered state INITED
+[INFO ] 2016-09-07 11:25:15.179 [] [] [main] org.apache.hadoop.yarn.client.RMProxy.createRMProxy(RMProxy.java:92) Connecting to ResourceManager at HADOOP-NODE1/10.20.0.11:8032
+[DEBUG] 2016-09-07 11:25:15.183 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.yarn.client.RMProxy.getProxy(RMProxy.java:130)
+[DEBUG] 2016-09-07 11:25:15.184 [] [] [main] org.apache.hadoop.yarn.ipc.YarnRPC.create(YarnRPC.java:59) Creating YarnRPC for org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC
+[DEBUG] 2016-09-07 11:25:15.188 [] [] [main] org.apache.hadoop.yarn.ipc.HadoopYarnProtoRPC.getProxy(HadoopYarnProtoRPC.java:47) Creating a HadoopYarnProtoRpc proxy for protocol interface org.apache.hadoop.yarn.api.ApplicationClientProtocol
+[DEBUG] 2016-09-07 11:25:15.231 [] [] [main] org.apache.hadoop.ipc.ClientCache.getClient(ClientCache.java:63) getting client out of cache: org.apache.hadoop.ipc.Client@1f3c2480
+[DEBUG] 2016-09-07 11:25:15.411 [] [] [main] org.apache.hadoop.service.AbstractService.start(AbstractService.java:197) Service org.apache.hadoop.yarn.client.api.impl.YarnClientImpl is started
+[DEBUG] 2016-09-07 11:25:15.425 [] [] [main] org.apache.hadoop.service.AbstractService.start(AbstractService.java:197) Service org.apache.hadoop.mapred.ResourceMgrDelegate is started
+[DEBUG] 2016-09-07 11:25:15.522 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.fs.FileContext.getAbstractFileSystem(FileContext.java:330)
+[DEBUG] 2016-09-07 11:25:15.538 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:389) dfs.client.use.legacy.blockreader.local = false
+[DEBUG] 2016-09-07 11:25:15.543 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:392) dfs.client.read.shortcircuit = false
+[DEBUG] 2016-09-07 11:25:15.544 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:395) dfs.client.domain.socket.data.traffic = false
+[DEBUG] 2016-09-07 11:25:15.544 [] [] [main] org.apache.hadoop.hdfs.DFSClient$Conf.<init>(DFSClient.java:398) dfs.domain.socket.path = 
+[DEBUG] 2016-09-07 11:25:15.544 [] [] [main] org.apache.hadoop.io.retry.RetryUtils.getDefaultRetryPolicy(RetryUtils.java:74) multipleLinearRandomRetry = null
+[DEBUG] 2016-09-07 11:25:15.551 [] [] [main] org.apache.hadoop.ipc.ClientCache.getClient(ClientCache.java:63) getting client out of cache: org.apache.hadoop.ipc.Client@1f3c2480
+[DEBUG] 2016-09-07 11:25:15.552 [] [] [main] org.apache.hadoop.mapreduce.Cluster.initialize(Cluster.java:103) Picked org.apache.hadoop.mapred.YarnClientProtocolProvider as the ClientProtocolProvider
+[DEBUG] 2016-09-07 11:25:15.553 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Cluster.getFileSystem(Cluster.java:161)
+[DEBUG] 2016-09-07 11:25:15.568 [] [] [main] org.apache.hadoop.security.UserGroupInformation.logPrivilegedAction(UserGroupInformation.java:1638) PrivilegedAction as:root (auth:SIMPLE) from:org.apache.hadoop.mapreduce.Job.submit(Job.java:1282)
+[DEBUG] 2016-09-07 11:25:15.616 [] [] [main] org.apache.hadoop.ipc.Client$Connection.<init>(Client.java:426) The ping interval is 60000 ms.
+[DEBUG] 2016-09-07 11:25:15.617 [] [] [main] org.apache.hadoop.ipc.Client$Connection.setupIOstreams(Client.java:695) Connecting to HADOOP-NODE1/10.20.0.11:9000
+[DEBUG] 2016-09-07 11:25:15.674 [] [] [IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:945) IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root: starting, having connections 1
+[DEBUG] 2016-09-07 11:25:15.676 [] [] [IPC Parameter Sending Thread #0] org.apache.hadoop.ipc.Client$Connection$3.run(Client.java:1008) IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root sending #0
+[DEBUG] 2016-09-07 11:25:15.692 [] [] [IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.receiveRpcResponse(Client.java:1065) IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root got value #0
+[DEBUG] 2016-09-07 11:25:15.698 [] [] [main] org.apache.hadoop.ipc.ProtobufRpcEngine$Invoker.invoke(ProtobufRpcEngine.java:221) Call: getFileInfo took 125ms
+[DEBUG] 2016-09-07 11:25:25.676 [] [] [IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.close(Client.java:1168) IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root: closed
+[DEBUG] 2016-09-07 11:25:25.677 [] [] [IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root] org.apache.hadoop.ipc.Client$Connection.run(Client.java:963) IPC Client (1671878947) connection to HADOOP-NODE1/10.20.0.11:9000 from root: stopped, remaining connections 0

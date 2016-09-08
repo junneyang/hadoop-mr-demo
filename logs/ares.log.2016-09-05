@@ -1,0 +1,6 @@
+[DEBUG] 2016-09-05 18:00:00.127 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.setUp(MRTest.java:16) MRTest: setUp
+[DEBUG] 2016-09-05 18:00:00.141 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.test001(MRTest.java:27) MRTest: test001
+[DEBUG] 2016-09-05 18:00:00.141 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.tearDown(MRTest.java:21) MRTest: tearDown
+[DEBUG] 2016-09-05 18:00:00.145 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.setUp(MRTest.java:16) MRTest: setUp
+[DEBUG] 2016-09-05 18:00:00.145 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.test002(MRTest.java:33) MRTest: test002
+[DEBUG] 2016-09-05 18:00:00.145 [] [] [main] com.ares.hadoop.mr.wordcount.MRTest.tearDown(MRTest.java:21) MRTest: tearDown
